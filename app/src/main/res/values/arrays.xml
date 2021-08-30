@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <array name="banner_img_id_array">
+        <item>@drawable/header_pic_ad1</item>
+        <item>@drawable/header_pic_ad2</item>
+        <item>@drawable/header_pic_ad3</item>
+        <item>@drawable/header_pic_ad4</item>
+    </array>
+
+    <!--首页菜单相关-->
+    <array name="index_menu_item_img">
+        <item>@drawable/menu_airport</item>
+        <item>@drawable/menu_hotel</item>
+        <item>@drawable/menu_travel</item>
+        <item>@drawable/menu_nearby</item>
+        <item>@drawable/menu_ticket</item>
+        <item>@drawable/menu_train</item>
+        <item>@drawable/menu_car</item>
+        <item>@drawable/menu_travel</item>
+    </array>
+    <string-array name="index_menu_item_title">
+        <item>飞机票</item>
+        <item>住酒店</item>
+        <item>去旅游</item>
+        <item>周边游</item>
+        <item>买门票</item>
+        <item>火车票</item>
+        <item>汽车票</item>
+        <item>领旅程</item>
+    </string-array>
+    <string-array name="index_menu_item_to_activity_cls">
+        <item>com.example.imooctao.AirPortActivity</item>
+        <item>com.example.imooctao.HotelActivity</item>
+        <item>com.example.imooctao.TravelActivity</item>
+        <item>com.example.imooctao.NearbyActivity</item>
+        <item>com.example.imooctao.TicketActivity</item>
+        <item>com.example.imooctao.TrainActivity</item>
+        <item>com.example.imooctao.CarActivity</item>
+        <item>com.example.imooctao.TravelActivity</item>
+    </string-array>
+
+
+    <!--主菜单广告展示相关-->
+    <array name="advertise_img">
+        <item>@drawable/main_spread1</item>
+        <item>@drawable/main_spread2</item>
+        <item>@drawable/main_spread3</item>
+        <item>@drawable/main_spread4</item>
+    </array>
+    <integer-array name="advertise_span_size">
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="advertise_goods_id">
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+        <item>1004</item>
+    </integer-array>
+
+    <!--我的页面-->
+    <array name="me_img">
+        <item>@drawable/list_my_menu</item>
+        <item>@drawable/list_save</item>
+        <item>@drawable/list_pwd</item>
+        <item>@drawable/list_my</item>
+        <item>@drawable/list_safe_center</item>
+        <item>@drawable/list_address</item>
+        <item>@drawable/list_service</item>
+        <item>@drawable/list_sug</item>
+        <item>@drawable/list_setting</item>
+    </array>
+    <string-array name="me_name">
+        <item>我的订单</item>
+        <item>我的收藏</item>
+        <item>我的口令</item>
+        <item>我的锦囊</item>
+        <item>安全中心</item>
+        <item>收货地址</item>
+        <item>售后服务</item>
+        <item>信息修改</item>
+        <item>设置中心</item>
+    </string-array>
+</resources>
